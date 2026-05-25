@@ -25,5 +25,5 @@ brew upgrade vertaa
 
 [VertaaUX](https://vertaaux.ai) runs automated UX, accessibility, and conversion audits. The `vertaa` CLI is the terminal and CI/CD interface.
 
-Source: https://github.com/VertaaUX/vertaa
+Source: https://github.com/PetriLahdelma/vertaa
 npm: https://www.npmjs.com/package/@vertaaux/cli
