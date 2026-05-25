@@ -1,8 +1,8 @@
 class Vertaa < Formula
   desc "VertaaUX CLI — UX, accessibility, and conversion audits from the terminal"
   homepage "https://vertaaux.ai"
-  url "https://registry.npmjs.org/@vertaaux/cli/-/cli-0.6.0.tgz"
-  sha256 "e6ddd7aad7e844764f2ac1339afe3a3992c6df8cc5f27f863c40f736546c31e0"
+  url "https://registry.npmjs.org/@vertaaux/cli/-/cli-0.8.1.tgz"
+  sha256 "a909d61d2159a8139d0fa0c37e5e0f792ba27d1d3c72db2343e17394988612fe"
   license "MIT"
 
   depends_on "node"
@@ -13,6 +13,6 @@ class Vertaa < Formula
   end
 
   test do
-    assert_match "0.6.0", shell_output("#{bin}/vertaa --version")
+    assert_match "0.8.1", shell_output("#{bin}/vertaa --version")
   end
 end
